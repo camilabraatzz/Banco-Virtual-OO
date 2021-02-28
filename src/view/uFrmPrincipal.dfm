@@ -22,18 +22,13 @@ object FrmPrincipal: TFrmPrincipal
     ActivePage = pg1
     Align = alClient
     TabOrder = 0
-    ExplicitWidth = 296
-    ExplicitHeight = 207
     object pg1: TTabSheet
       Caption = 'Criar Conta'
-      ExplicitLeft = 8
-      ExplicitTop = 28
-      ExplicitHeight = 190
       object Label3: TLabel
         Left = 24
         Top = 84
         Width = 65
-        Height = 17
+        Height = 13
         Caption = 'Tipo de conta'
       end
       object edtNome: TLabeledEdit
@@ -70,8 +65,6 @@ object FrmPrincipal: TFrmPrincipal
     object pg2: TTabSheet
       Caption = 'Opera'#231#245'es'
       ImageIndex = 1
-      ExplicitLeft = 8
-      ExplicitTop = 28
       object Label1: TLabel
         Left = 208
         Top = 3
@@ -81,10 +74,9 @@ object FrmPrincipal: TFrmPrincipal
       end
       object lblSaldo: TLabel
         Left = 208
-        Top = 22
+        Top = 30
         Width = 57
         Height = 35
-        Caption = '0,00'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
         Font.Height = -29
